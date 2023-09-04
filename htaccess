@@ -1,0 +1,74 @@
+ErrorDocument 403 /page37449358.html
+ErrorDocument 404 /page37449358.html
+
+DirectoryIndex page36080672.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^en$ page36080672.html [NC]
+RewriteRule ^en/$ page36080672.html [NC]
+
+RewriteRule ^amarket$ page36207886.html [NC]
+RewriteRule ^amarket/$ page36207886.html [NC]
+
+RewriteRule ^novaya$ page36281807.html [NC]
+RewriteRule ^novaya/$ page36281807.html [NC]
+
+RewriteRule ^softdev$ page36299991.html [NC]
+RewriteRule ^softdev/$ page36299991.html [NC]
+
+RewriteRule ^jameel$ page36315578.html [NC]
+RewriteRule ^jameel/$ page36315578.html [NC]
+
+RewriteRule ^maximus$ page37383309.html [NC]
+RewriteRule ^maximus/$ page37383309.html [NC]
+
+RewriteRule ^cutecloset$ page37390404.html [NC]
+RewriteRule ^cutecloset/$ page37390404.html [NC]
+
+RewriteRule ^kamchatka$ page37390685.html [NC]
+RewriteRule ^kamchatka/$ page37390685.html [NC]
+
+RewriteRule ^pagenotfound$ page37449358.html [NC]
+RewriteRule ^pagenotfound/$ page37449358.html [NC]
+
+RewriteRule ^ugkjgkh$ page37769736.html [NC]
+RewriteRule ^ugkjgkh/$ page37769736.html [NC]
+
+RewriteRule ^request$ page37918723.html [NC]
+RewriteRule ^request/$ page37918723.html [NC]
+
+RewriteRule ^ru$ page37993245.html [NC]
+RewriteRule ^ru/$ page37993245.html [NC]
+
+RewriteRule ^amarket/ru$ page38018580.html [NC]
+RewriteRule ^amarket/ru/$ page38018580.html [NC]
+
+RewriteRule ^novaya/ru$ page38018762.html [NC]
+RewriteRule ^novaya/ru/$ page38018762.html [NC]
+
+RewriteRule ^softdev/ru$ page38018827.html [NC]
+RewriteRule ^softdev/ru/$ page38018827.html [NC]
+
+RewriteRule ^jameel/ru$ page38018854.html [NC]
+RewriteRule ^jameel/ru/$ page38018854.html [NC]
+
+RewriteRule ^maximus/ru$ page38028411.html [NC]
+RewriteRule ^maximus/ru/$ page38028411.html [NC]
+
+RewriteRule ^cutecloset/ru$ page38031329.html [NC]
+RewriteRule ^cutecloset/ru/$ page38031329.html [NC]
+
+RewriteRule ^kamchatka/ru$ page38031534.html [NC]
+RewriteRule ^kamchatka/ru/$ page38031534.html [NC]
+
+RewriteRule ^request/ru$ page38043083.html [NC]
+RewriteRule ^request/ru/$ page38043083.html [NC]
+
+
